@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background-color: #2c1a4f;
+  color: white;
+  text-align: left;
+  width: 380px;
+  height: 550px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #2c1a4f;
+  color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 50px;
+  max-width: 100%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  padding: 10px 20px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h5, h4 {
+  font-size: 18 px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.title {
+  font-size: 1.3rem; /* Reduce font size */
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left; /* Align to the left */
+  white-space: nowrap; /* Prevent line break */
+}
+.logo3 img {
+  max-width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below */
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 20px; /* Moves it up from the bottom */
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0; /* Adds spacing inside the footer */
+  background-color: #2c1a4f; /* Optional background color */
+  color: white;
+}
+
+
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer a:hover {
+  color: #9370db; /* Match the purple theme */
+}

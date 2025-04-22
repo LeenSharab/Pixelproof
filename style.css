@@ -1,0 +1,133 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #2c1a4f;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 380px;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+  
+  
+  .navbar {
+    background-color: #2c1a4f;
+    color: white;
+    padding: 15px 30px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    box-sizing: border-box;
+}
+  
+.logo img {
+    height: 50px;
+    max-width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px; 
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.nav-links li {
+    display: inline;
+}
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+  
+.hero {
+    max-width: 60%;  
+    width: 250;  
+    margin: 20px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #f6f5f8, #9370db); 
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #2c1a4f;
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .primary {
+    background-color: #2c1a4f;
+    color: white;
+  }
+  
+  .secondary {
+    background-color: #9370db;
+    color: white;
+  }
+  
+
+
+
+
+
+
+  .footer {
+    position: fixed;
+    bottom: 20px; /* Moves it up from the bottom */
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0; /* Adds spacing inside the footer */
+    background-color: #2c1a4f; /* Optional background color */
+    color: white;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .footer a:hover {
+    color: #9370db; /* Match the purple theme */
+  }
+  
+  .logo3 img {
+    max-width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra space below */
+  }
+  
+  .upload-box.dragging {
+    border: 2px dashed #9370db;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
