@@ -1,0 +1,2 @@
+# Pixelproof
+Detects AI images
