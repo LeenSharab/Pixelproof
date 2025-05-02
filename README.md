@@ -1,4 +1,4 @@
-# Pixelproof
+# Pixelproof Extension
 
 # Chrome Extension – AI Image Detector
 
